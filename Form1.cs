@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MarketPlaceManager
 {
-    public partial class Form1 : Form
+    public partial class k : Form
     {
-        public Form1()
+        public k()
         {
             InitializeComponent();
         }

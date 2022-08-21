@@ -1,6 +1,6 @@
 ﻿namespace MarketPlaceManager
 {
-    partial class Form1
+    partial class k
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(k));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.roleSelect = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -107,6 +107,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.PowderBlue;
+            this.button1.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(358, 357);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 47);
@@ -114,11 +115,12 @@
             this.button1.Text = "Validate";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // Form1
+            // k
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
@@ -128,7 +130,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.roleSelect);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
+            this.Name = "k";
+            this.ShowIcon = false;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
